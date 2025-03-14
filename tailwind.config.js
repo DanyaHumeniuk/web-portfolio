@@ -5,8 +5,19 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        glow: {
+          "0%": { left: "-100%" },
+          "100%": { left: "100%" },
+        },
+      },
+      animation: {
+        "glow-move": "glow 1s ease-in-out",
+      },
+    },
   },
   plugins: [],
-}
+};
+
 

@@ -3,29 +3,22 @@ import video2 from "../assets/video2.mp4"
 
 const HeroSection = () => {
     return (
-        <div className="flex flex-col items-center mt-6 lg:mt-20">
+        <div className="flex flex-col items-center mt-6 lg:mt-14">
             <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
-                VirtualR build tools
-                <span className="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text"> for developers</span>
+                Hello, my name is
+                <span className="bg-gradient-to-r from-orange-500 to-red-600 text-transparent bg-clip-text"> Danylo Humeniuk</span>
             </h1>
-            <p className="mt-10 text-lg text-center text-neutral-500 max-w-4xl">
-                Empower your creativity and bring your VR app ideas to life with our intuitive development tools. Get started today and turn yourn imagination into immerse reality!
+            <p className="mt-10 text-lg text-center text-neutral-400 max-w-4xl">
+                I'm a second-year Computer Science and Psychology Combined Major student at the University of Victoria, passionate about Frontend Development and crafting intuitive, user-friendly interfaces!
             </p>
             <div className="flex justify-center my-10">
-                <a href="#" className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md">
-                    Start for free
-                </a>
-                <a href="#" className="py-3 px-4 mx-3 rounded-md border">
-                    Documentation
+                <a href="#" className="bg-gradient-to-r from-orange-500 to-red-600 py-3 px-4 mx-3 rounded-md relative overflow-hidden transition-all duration-300 hover:shadow-[0_0_25px_rgba(249,115,22,0.9)]">
+                    Contact me!
                 </a>
             </div>
-            <div className="flex mt-10 justify-start">
+            <div className="flex mt-10 justify-center">
                 <video autoPlay loop muted className="rounded-lg w-1/2 border border-orange-700 shadow-orange-400 mx-2 my-4">
                     <source src={video1} type="video/mp4" />
-                    Your browser does not support the video tag.
-                </video>
-                <video autoPlay loop muted className="rounded-lg w-1/2 border border-orange-700 shadow-orange-400 mx-2 my-4">
-                    <source src={video2} type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
             </div>

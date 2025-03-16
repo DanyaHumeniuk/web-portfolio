@@ -1,9 +1,11 @@
-import { BotMessageSquare } from "lucide-react";
-import { BatteryCharging } from "lucide-react";
-import { Fingerprint } from "lucide-react";
-import { ShieldHalf } from "lucide-react";
-import { PlugZap } from "lucide-react";
-import { GlobeLock } from "lucide-react";
+import {
+  Code,
+  LayoutDashboard,
+  Palette,
+  Server,
+  Terminal,
+  Globe,
+} from "lucide-react";
 
 import user1 from "../assets/profile-pictures/user1.jpg";
 import user2 from "../assets/profile-pictures/user2.jpg";
@@ -59,40 +61,40 @@ export const testimonials = [
 
 export const features = [
   {
-    icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    icon: <Code />,
+    text: "Clean Code Structure",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "Develop applications with well-structured, maintainable, and efficient code for optimal performance.",
   },
   {
-    icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    icon: <LayoutDashboard />,
+    text: "Responsive Design",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "Ensure seamless experiences across all screen sizes with fully responsive web design principles.",
   },
   {
-    icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    icon: <Palette />,
+    text: "UI/UX Optimization",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "Enhance user experience with intuitive and aesthetically pleasing interface designs.",
   },
   {
-    icon: <BatteryCharging />,
-    text: "Real-Time Preview",
+    icon: <Server />,
+    text: "Backend Integration",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "Easily connect frontend applications with robust backend services and APIs.",
   },
   {
-    icon: <PlugZap />,
-    text: "Collaboration Tools",
+    icon: <Terminal />,
+    text: "Developer-Friendly Tools",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+      "Utilize powerful development tools, frameworks, and version control for efficient workflow.",
   },
   {
-    icon: <GlobeLock />,
-    text: "Analytics Dashboard",
+    icon: <Globe />,
+    text: "SEO & Performance Optimization",
     description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+      "Improve site visibility and performance with SEO best practices and optimization techniques.",
   },
 ];
 

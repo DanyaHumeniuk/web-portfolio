@@ -11,7 +11,7 @@ const HeroSection = () => {
             <p className="mt-10 text-lg text-center text-neutral-400 max-w-4xl">
                 I am a second-year Computer Science and Psychology Combined Major student at the University of Victoria!
             </p>
-            <div className="flex justify-center my-10">
+            <div className="flex justify-center my-10 sm:mt-16">
                 <a href="#" className="bg-gradient-to-r from-orange-500 to-red-600 py-3 px-4 mx-3 rounded-md relative overflow-hidden transition-all duration-300 hover:shadow-[0_0_25px_rgba(249,115,22,0.9)]">
                     Contact me!
                 </a>
